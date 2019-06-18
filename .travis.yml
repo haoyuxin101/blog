@@ -4,8 +4,7 @@ node_js: stable
 # S: Build Lifecycle
 install:
   - npm install
-  - git clone https://github.com/theme-next/hexo-theme-next themes/next
-
+  
 script:
   - hexo g
 
