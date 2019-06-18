@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Haoyu Blog
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Haoyu
 language:
 timezone:
 
@@ -43,6 +43,9 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
+auto_excerpt:
+  enable: true
+  length: 150
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -73,9 +76,5 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
