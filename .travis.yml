@@ -7,9 +7,9 @@ install:
   - git clone https://github.com/theme-next/hexo-theme-next themes/next
   
 script:
-  - sed -i "608,609d" _config.yml
-  - sed -i "/disqus:/a \  shortname: haoyu-blog" _config.yml
-  - sed -i "/disqus:/a \  enabled: true" _config.yml
+  - sed -i "608,609d" themes/next/_config.yml
+  - sed -i "/disqus:/a \  shortname: haoyu-blog" themes/next/_config.yml
+  - sed -i "/disqus:/a \  enabled: true" themes/next/_config.yml
   - hexo g
 
 after_script:
