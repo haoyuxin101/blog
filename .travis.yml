@@ -10,6 +10,7 @@ script:
   - sed -i "608,609d" themes/next/_config.yml
   - sed -i "/disqus:/a \ \ shortname:\ haoyu-blog" themes/next/_config.yml
   - sed -i "/disqus:/a \ \ enable:\ true" themes/next/_config.yml
+  - cat themes/next/_config.yml
   - hexo g
 
 after_script:
